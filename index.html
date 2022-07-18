@@ -18,12 +18,16 @@
     rel="stylesheet" />
 </head>
 
-<body class="main-bg">
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
   <aside class="menu white-bg">
     <section class="main-content menu-content">
-      <h1><a href="#">LOGO</a></h1>
+      <h1><a href="#">Instituto Stefanini EAD</a></h1>
       <nav>
-        <ul>
+        <ul onclick="getElementById('close-menu').checked = false;">
           <li><a href="#">Início</a></li>
           <li><a href="#cursos">Cursos</a></li>
           <li><a href="#grid-one">Sobre</a></li>
@@ -39,12 +43,7 @@
     <div class="main-content intro-content">
       <div class="intro-text">
         <h2>Instituto Stefanini</h2>
-        <p>Um braço social do GRUPO STEFANINI, uma das mais importantes provedoras globais de soluções de Negócios
-          baseadas em Tecnologia. Durante 20 anos de existência o INSTITUTO STEFANINI atendeu mais de 100.000 pessoas,
-          ajudando-as a se preparar para o mundo Tecnológico e se reposicionar profissionalmente. Devido as restrições
-          da Pandemia de corona, em 2020, estamos trazendo nossos cursos para o mundo do EAD(Educação a Distância), de
-          forma TOTALMENTE GRATUITA(sem pegadinha) e usando uma metodologia diferenciada, que envolve Vídeos, Material
-          em PDF e interação direta com Instrutores.
+        <p>Um braço social do GRUPO STEFANINI, uma das mais importantes provedoras globais de soluções de Negócios baseadas em Tecnologia. Durante 20 anos de existência o INSTITUTO STEFANINI atendeu mais de 100.000 pessoas, ajudando-as a se preparar para o mundo Tecnológico e se reposicionar profissionalmente. Devido as restrições da Pandemia de corona, em 2020, estamos trazendo nossos cursos para o mundo do EAD(Educação a Distância), de forma TOTALMENTE GRATUITA(sem pegadinha) e usando uma metodologia diferenciada, que envolve Vídeos, Material em PDF e interação direta com Instrutores.
         </p>
       </div>
       <div class="intro-img">
@@ -56,9 +55,7 @@
     <div class="main-content top3-content">
       <h2>Cursos Disponível!!</h2>
       <p>
-        Inicialmente oferecemos cursos sobre o PACOTE MS OFFICE(Excel, Excel Avançado, Word e Powerpoint), futuramente
-        os demais cursos do Instituto Stefanini serão migrados para o EAD. Se cadastre e nos ajude, com sugestões e
-        críticas, a melhorar nosso curso e ajudar mais pessoas.
+        Inicialmente oferecemos cursos sobre o PACOTE MS OFFICE(Excel, Excel Avançado, Word e PowerPoint), futuramente os demais cursos do Instituto Stefanini serão migrados para o EAD. Se cadastre e nos ajude, com sugestões e críticas, a melhorar nosso curso e ajudar mais pessoas.
         Divulgue nosso site entre seus amigos.
       </p>
 
@@ -199,6 +196,11 @@
     </div>
   </section>
 
+  <footer id="footer" class="footer white-bg">
+    <p>Feito com <span class="heart">&#9829;</span> por...</p>
+  </footer>
+
+  <a href="#" class="back-to-top">➤</a>
 </body>
 
 </html>
